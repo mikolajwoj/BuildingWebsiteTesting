@@ -1,4 +1,4 @@
-# TallestBuildingWebsiteTesting 
+# Top 100 tallest building website testing 
 A test project to meet three fundamental test requirements from a dynamic table included at 
 https://www.skyscrapercenter.com/buildings?list=tallest100-construction  
 - [x] Verification whether the table has 100 rows
