@@ -1,6 +1,6 @@
 using OpenQA.Selenium;
 
-namespace AutomationTestSiiFramework.Base
+namespace BuildingWebsiteTestProject.Base
 {
     public abstract class BasePage
     {

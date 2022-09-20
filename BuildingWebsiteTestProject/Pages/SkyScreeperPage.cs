@@ -7,13 +7,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AutomationTestSiiFramework.Base;
+using BuildingWebsiteTestProject.Base;
 using OpenQA.Selenium.Support.UI;
 // For supporting Page Object Model
 // Obsolete - using OpenQA.Selenium.Support.PageObjects;
 using SeleniumExtras.PageObjects; 
 
-namespace WebsiteTestProject.Pages;
+namespace BuildingWebsiteTestProject.Pages;
 
 public class SkyScreeperPage : BasePage
 {
@@ -24,7 +24,7 @@ public class SkyScreeperPage : BasePage
     private IWebElement cookiesButton; 
     [FindsBy(How = How.CssSelector, Using = "#lists-pages-select-container > select")]
     private IWebElement buildingDropDownElement;
-
+    
     public SkyScreeperPage(IWebDriver driver) : base(driver)
     {
         this.Driver = driver;
