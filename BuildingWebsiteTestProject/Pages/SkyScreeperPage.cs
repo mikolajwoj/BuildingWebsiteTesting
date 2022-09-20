@@ -1,12 +1,4 @@
-using System;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Remote;
-using NUnit.Framework;
-using System.Threading;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BuildingWebsiteTestProject.Base;
 using OpenQA.Selenium.Support.UI;
 // For supporting Page Object Model
