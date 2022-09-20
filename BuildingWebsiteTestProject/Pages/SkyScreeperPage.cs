@@ -1,8 +1,6 @@
 using OpenQA.Selenium;
 using BuildingWebsiteTestProject.Base;
 using OpenQA.Selenium.Support.UI;
-// For supporting Page Object Model
-// Obsolete - using OpenQA.Selenium.Support.PageObjects;
 using SeleniumExtras.PageObjects; 
 
 namespace BuildingWebsiteTestProject.Pages;
